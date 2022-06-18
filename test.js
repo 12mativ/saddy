@@ -1,10 +1,7 @@
 while (true) {
-    let answer = prompt('Грустишь?');
-    if (answer.toLowerCase() === 'да') {
-        alert('Не грусти!!!');
-        break
-    } else if (answer.toLowerCase() === 'нет') {
-        alert('Умница!');
+    let answer = prompt('День рождения?');
+    if (answer.toLowerCase() == 'да') {
+        alert('С днём рождения!!!');
         break
     } else {
         alert('Не понял тебя, попробуй заново.')
